@@ -1,0 +1,31 @@
+.node {
+    width: 50px;  /* Adjust size as needed */
+    height: 50px; /* Adjust size as needed */
+    border-radius: 50%;
+    background-color: #131313;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #333; /* Optional: adds a border */
+    color: white;
+}
+
+.node{
+    background-color: #191919;
+    border-radius: 50%;
+}
+/* Mobile Devices */
+@media (max-width: 576px) {
+    /* Styles for mobile */
+}
+
+/* Tablet Devices */
+@media (min-width: 577px) and (max-width: 768px) {
+    /* Styles for tablets */
+}
+
+/* Desktop Devices */
+@media (min-width: 769px) {
+    /* Styles for desktops */
+}
+
